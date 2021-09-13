@@ -12,6 +12,9 @@ public class RegistrationTest {
         obj.setPassword("");
         obj.setPassword("bobo");
         obj.setPassword("Malakas");
+        System.out.println(obj.getEmail());
+        System.out.println(obj.getUserName());
+        System.out.println(obj.getPassword());
 
 
 

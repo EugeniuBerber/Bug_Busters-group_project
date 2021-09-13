@@ -5,6 +5,18 @@ public class Registration {
     private String userName;
     private String password;
 
+    public String getEmail() {
+        return email;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
     public void setEmail(String newEmail) {
         if (newEmail.endsWith("@yahoo.com")) {
             this.email = newEmail;
